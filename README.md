@@ -7,8 +7,15 @@ Windows PowerShell script that installs the [Virality](https://thunderstore.io/c
 
 ## Usage
 
-1. Close Content Warning.
-2. Run in PowerShell:
+**Easy way:**
+
+1. Click **Code > Download ZIP** on this page and extract the ZIP (right-click > Extract All).
+2. Close Content Warning.
+3. Double-click `install.bat`. Wait until it says "Done".
+
+If Windows shows a blue "SmartScreen" warning, click **More info > Run anyway**.
+
+**PowerShell way:**
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\install-virality.ps1
