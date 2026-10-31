@@ -33,6 +33,22 @@ Remove the mod again (BepInEx stays):
 .\install-virality.ps1 -Uninstall
 ```
 
+## Linux (Fedora etc.)
+
+Content Warning runs through Steam Play (Proton).
+
+```bash
+bash install-virality-linux.sh
+```
+
+Needs only `bash` and `python3` (preinstalled on Fedora). Options: `--game-path "<folder>"`, `--uninstall`.
+
+One manual step remains: in Steam, right-click Content Warning > Properties > Launch Options and paste:
+
+```
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+```
+
 ## Notes
 
 - All players in the lobby need the mod.
